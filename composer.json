@@ -1,0 +1,14 @@
+{
+    "name": "vendor/name",
+    "authors": [
+        {
+            "name": "Sasha Fedoruk",
+            "email": "sasha1.fedoruk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"config": {
+		"vendor-dir": "composer_vendor"
+	}
+}

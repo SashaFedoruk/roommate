@@ -1,0 +1,359 @@
+body {
+    padding-top: 50px;
+    background: #e6e6e6;
+}
+
+textarea{
+    resize: vertical !important;
+}
+
+.content {
+    background: white;
+    min-height: 83vh;
+    padding-bottom: 30px;
+}
+
+footer .container {
+    padding: 10px;
+    background: white;
+}
+
+.paramsOfSearch {
+    padding: 20px;
+    min-height: 400px;
+    background: #ededed;
+    border-radius: 10px;
+    border: 1px solid #416d8f;
+}
+
+.searchResult{
+    padding: 25px;
+    background: #d8ecf3;
+    border: 1px solid #8ee0fc;
+    min-height: 500px;
+    border-radius: 10px;
+}
+
+.BlockGray{
+    padding: 25px;
+    background: #F9F9F9;
+    border: 1px solid #BBBBBB;
+    min-height: 500px;
+    border-radius: 10px;
+}
+
+.maxWidth350{
+    max-width: 350px !important;
+}
+.pagination {
+    margin: auto;
+    padding: 0;
+}
+
+.navPages {
+    display: block;
+    margin: auto;
+    width: 233px;
+}
+
+.ico50x50Circle,
+.ico45x45Circle,
+.ico40x40Circle {
+    display: block;
+    background-size: cover;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.ico50x50Circle {
+    width: 50px;
+    height: 50px;
+}
+
+.ico45x45Circle {
+    width: 45px;
+    height: 45px;
+}
+
+.ico40x40Circle {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+
+.icoWidth100prc {
+    display: block;
+    width: 100%;
+    min-height: 20px;
+    max-height: 450px;
+    margin: auto;
+}
+
+.icoUser {
+    margin: 3px;
+}
+
+.navbar-right .dropdown-menu {
+    min-width: 240px !important;
+    margin-top: 0;
+    right: auto;
+    min-width: 200px;
+}
+
+.searchInfo {
+    padding: 10px;
+}
+
+.searchInfo hr {
+    color: #8ee0fc;
+    background-color: #8ee0fc;
+    border: none;
+    height: 1px;
+}
+
+.avatar {
+    background: silver;
+    width: 150px;
+    height: 140px;
+}
+
+.priceHouse {
+    width: auto;
+    display: block;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+    background: #e6e6e6;
+    text-align: center;
+    border: 1px solid #8ee0fc;
+}
+.priceHouseGray{
+    width: auto;
+    display: block;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+    background: #e6e6e6;
+    text-align: center;
+    border: 1px solid rgba(186, 186, 186, 1);
+}
+.text {
+    height: auto;
+    min-height: 10px;
+}
+
+.noPadding {
+    padding: 0 !important;
+}
+
+.noMargin {
+    margin: 0;
+}
+
+.alignRight{
+    text-align: right;
+}
+
+.silverBlock{
+    opacity: .75;
+    background-color: buttonface;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    text-align: center;
+    margin: 0;
+    padding: 6px 12px;
+}
+
+.opacity90 {
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+.littleText{
+    opacity: 0.8;
+    font-size: 9pt;
+}
+.borderBottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+.width100prc{
+    width: 100% !important;
+}
+
+.blockMessage{
+    padding: 15px 0;
+    margin-bottom: 4px;
+    border-bottom: 2px solid #f4f4f4;
+}
+.noReaded{
+    background: #f4f4f4;
+}
+.scrollBlock{
+    height: 60vh;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 0 10px;
+}
+
+.toMessage,
+.fromMessage{
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #e9e5cd;
+}
+.toMessage{
+    background: #f7f7f7;
+}
+.fromMessage{
+    background: #edf2f8;
+}
+.blockTimeMessage{
+    padding: 10px 0;
+    font-size: 9pt;
+    text-align: center;
+    vertical-align: middle;
+    opacity: 0.6;
+}
+.opacity60{
+    opacity: 0.6;
+}
+.btn-pink {
+    color: #fff;
+    background-color: #ff7e97;
+    border-color: #ff7e97;
+    opacity: 0.8;
+}
+.btn-pink:hover{
+    color: white;
+    opacity: 1;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.hiddenBlock{
+    border: none;
+    height: 0;
+    width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.navbar-logo{
+    padding:3px;
+}
+.navbar-logo img{
+    height: 100%;
+}
+.navbar-nav{
+    font-size: 11pt;
+}
+@media (max-width: 768px) {
+    body {
+        padding-top: 32px;
+    }
+    .noMargin-xs {
+        margin: 0;
+    }
+    .ico35x35Circle-xs {
+        width: 35px;
+        height: 35px;
+    }
+    .noPadding-xs {
+        padding: 0;
+    }
+    .borderBottom-xs {
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .thumbnail {
+        padding: 5px;
+        margin: 0;
+    }
+    .searchResult {
+        padding: 15px;
+    }
+    .navbar-logo{
+        padding: 12px;
+    }
+    .navbar-nav{
+        font-size: 11pt !important;
+        font-weight: 600 !important;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .navbar-nav{
+        font-size: 10pt;
+        font-weight: 500;
+    }
+    .navbar-logo{
+        padding: 9px;
+    }
+    .navbar-right .dropdown-menu {
+        right: 10px;
+    }
+}
+
+.genderManIco {
+    background-image: url(../img/Man.png);
+}
+
+.genderWomanIco {
+    background-image: url(../img/Woman.png);
+}
+
+.genderUnisexIco {
+    background-image: url(../img/Unisex.png);
+}
+
+.smokingIco {
+    background-image: url(../img/Smoking.png);
+}
+
+.noSmokingIco {
+    background-image: url(../img/NoSmoking.png);
+}
+
+.smokingNoMatterIco {
+    background-image: url(../img/SmokingNoMatter.png)
+}
+
+.alcoholIco {
+    background-image: url(../img/Alcohol.png);
+}
+
+.noAlcoholIco {
+    background-image: url(../img/NoAlcohol.png);
+}
+
+.alcoholNoMatterIco {
+    background-image: url(../img/AlcoholNoMatter.png)
+}
+
+.animalsIco {
+    background-image: url(../img/Animals.png);
+}
+
+.noAnimalsIco {
+    background-image: url(../img/NoAnimals.png);
+}
+
+.animalsNoMatterIco {
+    background-image: url(../img/AnimalsNoMatter.png)
+}

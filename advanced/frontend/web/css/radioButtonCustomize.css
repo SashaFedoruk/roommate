@@ -1,0 +1,22 @@
+.radioButtonToImage  input[type=radio] {
+    display: none;
+}
+
+
+
+.radioButtonToImage  input[type=radio] + label {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.radioButtonToImage  input[type=radio]:checked + label {
+    border: 2px solid #bfbfbf;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    box-shadow: 0 0 10px rgba(100, 100, 100, 0.8);
+}
+
+
+
